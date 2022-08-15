@@ -1,0 +1,13 @@
+<ul class="list-group mx-3">
+  <li class="list-group-item">
+    <p>-You</p>
+    <p><%= params[:questions] %> </p>
+  </li>
+  <li class="list-group-item">
+      <p>-Your coach</p>
+      <p><%= params[:answer] %> </p>
+  </li>
+  <li class="list-group">
+    <p class=" py-3 mx-3"><%= link_to 'Ask a new question', '/ask'%></p>
+  </li>
+</ul>
